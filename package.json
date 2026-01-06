@@ -1,0 +1,24 @@
+{
+  "name": "dfc",
+  "version": "1.0.0",
+  "description": "The Purple Octogon: Discord Fighting Championship is turn based strategy game built for Discord. Each Server is a dojo and the members are either fans or fighters. ",
+  "homepage": "https://github.com/defiantbydesign/Discord-Fighting-Champs#readme",
+  "bugs": {
+    "url": "https://github.com/defiantbydesign/Discord-Fighting-Champs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defiantbydesign/Discord-Fighting-Champs.git"
+  },
+  "license": "ISC",
+  "author": "Defiant By Design",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3"
+  }
+}
